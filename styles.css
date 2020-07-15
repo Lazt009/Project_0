@@ -2,14 +2,14 @@ img{
 	width:20%;
 	padding: 10px 10px;
 	margin: 0px 40%;
-	margin-top: 200px;
+	margin-top: 150px;
 }
 
 .inputField{
 	color: black;
 
 	width: 35%;
-	height: 40px;
+	height: 35px;
 	margin: 10px 32.5%;
 
 	border-radius: 50px; 
@@ -20,16 +20,23 @@ img{
 	outline: none;
 }
 
-.searchButton{
+.inputField:hover{
+	border:1px solid black;
+  	padding: 10px;
+  	box-shadow: 2px 5px #D3D3D3;
+
+}
+
+.searchButtonWeb{
 	width: 25%;
-	height: 35px;
+	height: 30px;
 	margin: 0px 12%;
 	padding: 0px;
 	color: #67696b;
-	border:1px solid grey;
+	border:0px solid grey;
 }
 
-.searchButton:hover{
+.searchButtonWeb:hover{
 	color: black;
 	border:1px solid black;
 }
@@ -40,3 +47,13 @@ img{
 	margin: 10px 32.5%;
 }
 
+
+a{
+	float: right;
+	margin: 10px 20px;
+	color: black;
+}
+
+a:hover{
+	color: grey;
+}
