@@ -1,0 +1,42 @@
+img{
+	width:20%;
+	padding: 10px 10px;
+	margin: 0px 40%;
+	margin-top: 200px;
+}
+
+.inputField{
+	color: black;
+
+	width: 35%;
+	height: 40px;
+	margin: 10px 32.5%;
+
+	border-radius: 50px; 
+	border:1px solid grey;
+
+	padding: 0px 20px;
+
+	outline: none;
+}
+
+.searchButton{
+	width: 25%;
+	height: 35px;
+	margin: 0px 12%;
+	padding: 0px;
+	color: #67696b;
+	border:1px solid grey;
+}
+
+.searchButton:hover{
+	color: black;
+	border:1px solid black;
+}
+
+/*Class for division of button*/
+.buttonDiv{   
+	width:35%;
+	margin: 10px 32.5%;
+}
+
