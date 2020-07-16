@@ -41,6 +41,20 @@ img{
 	border:1px solid black;
 }
 
+.searchButtonImages{
+	width: 30%;
+	height: 30px;
+	margin: 0px 35%;
+	padding: 0px;
+	color: #67696b;
+	border:0px solid grey;
+}
+
+.searchButtonImages:hover{
+	color: black;
+	border:1px solid black;
+}
+
 /*Class for division of button*/
 .buttonDiv{   
 	width:35%;
