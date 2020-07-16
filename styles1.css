@@ -1,0 +1,59 @@
+p{
+	color:#d93025;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 2.0em;
+}
+
+img{
+	margin: 15px 1%;
+	width: 6%;
+	height: 30px;
+}
+
+a{
+	float: right;
+	margin: 10px 20px;
+	color: black;
+}
+
+a:hover{
+	color: grey;
+}
+
+table{
+	margin: 50px;
+	text-align: left;
+}
+tr{
+	height: 35px;
+}
+
+.firstColumn{
+	width: 250px;
+}
+
+.secondColumn{
+	width: 550px;
+
+}
+
+.thirdColumn{
+	width: 250px;
+	font-size: 0.8em;
+	color: grey;
+}
+
+td input{
+	width: 90%; 
+}
+
+#button{
+	width: 25%;
+	height: 30px;
+	margin: 0px;
+	margin-left: 65%;
+	color: white;
+	background-color: #4d90fe;
+	border: 0px solid #4d90fe;
+}

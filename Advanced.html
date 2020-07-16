@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Advanced Search</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+	<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+	<a href="googleImages.html">Images</a>
+	<a href="index.html">Google Search</a>
+	<p>Advanced Search</p>
+
+	<form action="https://www.google.com/search?">
+	<table>
+		<thead>
+			<tr>
+				<th class="firstColumn">Find Pages With</th>
+				<th></th>
+				<th class="thirdColumn">To do this in the search box</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr >
+				<td class="firstColumn">all these words:</td>
+				<td class="secondColumn"><input type="text" name="as_q"></td>
+				<td class="thirdColumn">Type the important words: tri-colour rat terrier</td>
+			</tr>
+			<tr>
+				<td class="firstColumn">this exact word or phase:</td>
+				<td class="secondColumn"><input type="text" name="as_epq"></td>
+				<td class="thirdColumn">Put exact words in quotes: "rat terrier"</td>
+			</tr>
+			<tr >
+				<td class="firstColumn">any of these words:</td>
+				<td class="secondColumn"><input type="text" name="as_oq"></td>
+				<td class="thirdColumn">Type OR between all the words you want: miniature OR standard</td>
+			</tr>
+			<tr>
+				<td class="firstColumn">none of these words:</td>
+				<td class="secondColumn"><input type="text" name="as_eq"></td>
+				<td class="thirdColumn">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Advanced Search" id="button" class="rounded"></td>
+				<td></td>
+			</tr>
+
+		</tbody>
+	</table>
+	</form>
+</body>
+</html>
